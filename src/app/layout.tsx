@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "@/styles/globals.scss";
+import StyledComponentsRegistry from "@/lib/AntdRegistry";
+import { ConfigProvider } from "antd";
+import theme from "@/lib/theme/themeConfig";
 
 export const metadata: Metadata = {
   title: "TRIPAMI",
@@ -13,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <StyledComponentsRegistry>
+          <ConfigProvider theme={theme}>{children}</ConfigProvider>
+        </StyledComponentsRegistry>
+      </body>
     </html>
   );
 }
