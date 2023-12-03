@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline-style: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Pretendard";
+  font-size: 16px;
+
+  overflow: hidden;
+}
+
+/* ======================================== media query ======================================== */
+@media screen and (min-width: 3200px) {
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+// 장치가 가로 방향인 경우 적용
+@media (orientation: landscape) {
+}
+
+// 장치가 세로 방향인 경우 적용
+@media (orientation: portrait) {
+}
