@@ -1,9 +1,10 @@
 import type { ThemeConfig } from "antd";
+import Colors from "@/styles/Colors";
 
 const theme: ThemeConfig = {
   token: {
     fontSize: 16,
-    // colorPrimary: "#4873F7",
+    colorPrimary: Colors.mainColor,
   },
 };
 
