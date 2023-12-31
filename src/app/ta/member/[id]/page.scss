@@ -1,0 +1,23 @@
+.formWrap {
+  .ant-form-item {
+    .ant-form-item-row {
+      .ant-form-item-label {
+        label {
+          color: #b9b9b9;
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+
+    &.bottomLine {
+      border-bottom: 1px solid #e1e1e1;
+    }
+  }
+}
+
+.labelTextStyle {
+  color: #b9b9b9;
+  font-size: 18px;
+  font-weight: 600;
+}
